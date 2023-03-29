@@ -39,18 +39,12 @@ parts:
     source: https://www.abisource.com/downloads/abiword/3.0.5/source/abiword-3.0.5.tar.gz
     plugin: autotools
     build-packages:
-      - curl
       - build-essential
       - make
-      - git
       - autotools-dev
       - automake
       - autoconf
       - autopoint
-      - libtool
-      - libtool-bin
-      - pkg-config
-      - intltool
       - libboost-all-dev
       - libcurl4-openssl-dev
       - libglib2.0-dev
@@ -62,6 +56,20 @@ parts:
       - libgdk-pixbuf-2.0-0
       - libgdk-pixbuf2.0-common
       - libgdk-pixbuf2.0-bin
+      - libfribidi-dev
+      - libfribidi0
+      - libglib2.0-dev 
+      - libgsf-1-dev
+      - libgsf-1-common
+      - wv
+      - libxslt1-dev
+      - gir1.2-gio-2.0
+      - pdftocairo
+      - cairo-5c
+      - libcairo2
+      - libpangocairo-1.0-0
+      - libgtk-3-0
+     
       
   
   

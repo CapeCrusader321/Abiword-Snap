@@ -37,7 +37,7 @@ apps:
 parts:
   abiword:
     source: https://www.abisource.com/downloads/abiword/3.0.5/source/abiword-3.0.5.tar.gz
-    plugin: make
+    plugin: autotools
     build-packages:
       - curl
       - build-essential

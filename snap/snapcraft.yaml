@@ -64,7 +64,6 @@ parts:
       - wv
       - libxslt1-dev
       - gir1.2-gio-2.0
-      - pdftocairo
       - cairo-5c
       - libcairo2
       - libpangocairo-1.0-0

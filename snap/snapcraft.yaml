@@ -51,6 +51,7 @@ parts:
       - libtool-bin
       - pkg-config
       - intltool
+      - libboost-all-dev
       - libcurl4-openssl-dev
       - libglib2.0-dev
       - libevent-dev

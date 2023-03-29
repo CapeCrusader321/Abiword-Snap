@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Abiword-Snap
+GenericName=Word Processor 
+Comment=Compose, edit, and view documents
+Icon=${SNAP}/meta/gui/abiword.svg
+Categories=Office;WordProcessor;
+Exec=abiword-gtk %U
+StartupNotify=true
+MimeType=application/x-abiword;text/x-abiword;text/x-xml-abiword;text/plain;application/msword;application/rtf;application/vnd.plain;application/xhtml+xml;text/html;application/x-crossmark;application/docbook+xml;application/x-t602;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-template;application/vnd.oasis.opendocument.text-web;application/vnd.sun.xml.writer;application/vnd.stardivision.writer;text/vnd.wap.wml;application/wordperfect6;application/wordperfect5.1;application/vnd.wordperfect;application/x-abicollab;
+
+

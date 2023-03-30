@@ -64,10 +64,12 @@ parts:
       - libboost-all-dev
       - libpng16-16
       - librdf0
+      - libxslt-dev
       - libreadline8
       - librevenge-0.0-0
       - libsoup2.4-1
       - libstdc++6
+      - libgsf-1-dev
       - libtelepathy-glib0
       - libtidy5deb1
       - libwmf0.2-7
@@ -75,6 +77,7 @@ parts:
       - libwpg-0.3-3
       - libxml2
       - zlib1g
+      - libwv-dev
       - poppler-utils
   
   

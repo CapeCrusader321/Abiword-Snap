@@ -59,6 +59,7 @@ parts:
       - libjpeg8
       - libloudmouth1-0
       - libots0
+      - libpng-dev
       - libpng16-16
       - librdf0
       - libreadline8

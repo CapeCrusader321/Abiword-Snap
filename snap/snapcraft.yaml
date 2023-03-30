@@ -61,6 +61,7 @@ parts:
       - libots0
       - libjpeg-dev
       - libpng-dev
+      - libboost-all-dev
       - libpng16-16
       - librdf0
       - libreadline8

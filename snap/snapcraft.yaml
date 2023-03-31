@@ -26,6 +26,7 @@ apps:
     common-id: org.community.abiword
     environment:
             GTK_USE_PORTAL: 1
+            LD_LIBRARY_PATH: $SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/local/lib:$SNAP/usr/local/share
     plugs:
       - home
       - audio-playback

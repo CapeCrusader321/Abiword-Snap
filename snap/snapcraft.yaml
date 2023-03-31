@@ -79,9 +79,12 @@ parts:
       - libxml2
       - zlib1g
       - libwv-dev
+      - libgdk-pixbuf-2.0-0
+      - libgdk-pixbuf-2.0-dev
       - poppler-utils
       
     stage-packages:
       - libgsf-1-114
       - libwv-1.2-4
+      - libgdk-pixbuf-2.0-0
   

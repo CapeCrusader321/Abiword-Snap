@@ -46,6 +46,8 @@ parts:
   abiword:
     source: https://www.abisource.com/downloads/abiword/3.0.5/source/abiword-3.0.5.tar.gz
     plugin: autotools
+    autotools-configure-parameters:
+      - prefix=/usr
     build-packages:
       - gsfonts
       - libdbus-1-3

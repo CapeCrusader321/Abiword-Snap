@@ -39,9 +39,6 @@ apps:
       - unity7
       - screen-inhibit-control
       
- 
- 
-      
 parts:
   abiword:
     source: https://www.abisource.com/downloads/abiword/3.0.5/source/abiword-3.0.5.tar.gz

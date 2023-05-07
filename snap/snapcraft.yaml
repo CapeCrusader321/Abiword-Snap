@@ -17,15 +17,14 @@ slots:
   abiword-gtk:
     interface: dbus
     bus: session
-    name: io.github.cc23.abiword
+    name: com.abisource.AbiWord
 
 apps:
   abiword-gtk:
     command: usr/local/bin/abiword
     extensions: [gnome]
-    common-id: org.community.abiword
+    common-id: com.abisource.AbiWord
     environment:
-            GTK_USE_PORTAL: 1
             LD_LIBRARY_PATH: $SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/local/lib:$SNAP/usr/local/share:$SNAP/usr/local/share/icons/hicolor
     plugs:
       - home
@@ -34,7 +33,6 @@ apps:
       - network
       - raw-usb
       - optical-drive
-      - network-status
       - removable-media
       - unity7
       - screen-inhibit-control

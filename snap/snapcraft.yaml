@@ -83,5 +83,5 @@ parts:
     stage-packages:
       - libgsf-1-114
       - libwv-1.2-4
-      - libgdk-pixbuf-2.0-0
+     
   
